@@ -1,0 +1,156 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(37, 37, 37);
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.box {
+    display: flex;
+
+    .item {
+        gap: 50px;
+        margin-left: 10px;
+        margin-top: 50px;
+        width: 400px;
+        height: 500px;
+        border-radius: 10px;
+        background-color: rgb(49, 49, 49);
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+
+        img {
+            width: 398px;
+            height: 250px;
+        }
+
+        .btns {
+            display: flex;
+            padding-top: 40px;
+            gap: 20px;
+            padding-left: 10px;
+
+            button {
+                border-radius: 5px;
+            }
+        }
+
+        h2 {
+            padding-top: 10px;
+            padding-left: 10px;
+            font-size: 30px;
+        }
+
+        h5 {
+            font-size: 20px;
+
+            padding-top: 15px;
+            padding-right: 10px;
+            padding-left: 10px;
+            color: gray;
+        }
+    }
+}
+
+#stripe {
+    background-color: rgb(92, 102, 250);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    cursor: pointer;
+    width: 60px;
+    height: 25px;
+}
+
+#pro {
+    background-color: rgb(96, 252, 96);
+    color: white;
+    width: 50px;
+    border: none;
+    cursor: pointer;
+    height: 25px;
+
+}
+
+#typescript {
+    color: white;
+    background-color: rgb(67, 67, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 70px;
+    height: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+#react {
+    margin-top: 10px;
+    color: rgb(42, 229, 253);
+    width: 60px;
+    height: 25px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(34, 34, 34);
+}
+
+#nextjs {
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 60px;
+    height: 25px;
+}
+
+#postgres {
+    margin-top: 10px;
+    width: 80px;
+    height: 25px;
+    color: gray;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(37, 37, 37);
+}
+
+#pro2 {
+    margin-top: 10px;
+    background-color: rgb(96, 252, 96);
+    color: white;
+    width: 50px;
+    border: none;
+    cursor: pointer;
+    height: 25px;
+}
+
+h4 {
+    color: gray;
+    font-size: 20px;
+    padding: 25px 10px 0px;
+}
+
+#svelte {
+    margin-top: 10px;
+    background-color: rgb(255, 102, 0);
+    width: 60px;
+    height: 25px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+#firebase {
+    margin-top: 10px;
+    background-color: orange;
+    width: 80px;
+    height: 25px;
+    border: none;
+    cursor: pointer;
+}
